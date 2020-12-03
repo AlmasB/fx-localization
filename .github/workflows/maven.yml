@@ -28,4 +28,4 @@ jobs:
           ${{ runner.os }}-maven-
           
     - name: Build and test with Maven
-      run: mvn test -B `-Dgpg.skip=true
+      run: mvn test -B -Dgpg.skip=true
