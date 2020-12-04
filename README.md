@@ -27,3 +27,19 @@ public class BasicApp extends Application {
     }
 }
 ```
+
+### Maven
+
+```
+<dependency>
+    <groupId>com.github.almasb</groupId>
+    <artifactId>fx-localization</artifactId>
+    <version>1</version>
+</dependency>
+```
+
+### Gradle
+
+```
+implementation 'com.github.almasb:fx-localization:1'
+```
