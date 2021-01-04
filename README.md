@@ -1,9 +1,10 @@
 ## fx-localization
+
 A tiny JavaFX library that provides localization API.
 
 ### Usage
 
-```
+```java
 public class BasicApp extends Application {
 
     @Override
@@ -30,7 +31,7 @@ public class BasicApp extends Application {
 
 ### Maven
 
-```
+```xml
 <dependency>
     <groupId>com.github.almasb</groupId>
     <artifactId>fx-localization</artifactId>
@@ -40,6 +41,6 @@ public class BasicApp extends Application {
 
 ### Gradle
 
-```
+```groovy
 implementation 'com.github.almasb:fx-localization:1'
 ```
